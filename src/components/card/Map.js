@@ -1,14 +1,8 @@
-import './App.css';
-import '../src/assets/css/index.css'
-// import CounterWithLimit from './components/counter/CounterWithLimit';
-// import Footer from './components/main/Footer';
-// import Header from './components/main/Header';
-// import Map from '../src/components/card/Map'
+import React from 'react';
+// import ReactMapGL from 'react-map-gl';
+// import 'mapbox-gl/dist/mapbox-gl.css';
 
-import ReactMapGL from 'react-map-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
-
-function App() {
+function Map() {
   const viewport = {
     width: '100%',
     height: '100vh',
@@ -27,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Map;
